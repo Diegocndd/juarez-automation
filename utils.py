@@ -2,7 +2,11 @@ from enum import Enum
 from typing import Type
     
 CRASH_BLAZE_URL='https://www.tipminer.com/historico/blaze/crash'
-CRASH2_BLACK_URL='https://www.tipminer.com/historico/blaze/crash2'
+CRASH2_BLAZE_URL='https://www.tipminer.com/historico/blaze/crash2'
+AVIATOR_BLAZE_URL='https://www.tipminer.com/historico/blaze/aviator'
+AVIATOR_JONBET_URL='https://www.tipminer.com/historico/jonbet/aviator'
+CRASH_JONBET_URL='https://www.tipminer.com/historico/jonbet/crash'
+CRASH2_JONBET_URL='https://www.tipminer.com/historico/jonbet/crash2'
 
 class Status(Enum):
     SUCCESS = 1

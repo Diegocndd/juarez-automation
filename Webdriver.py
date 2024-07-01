@@ -3,7 +3,7 @@ from selenium import webdriver
 class Webdriver:
     def __init__(self, download_directory, width = 1220, height = 2600, view_browser = True) -> None:
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless=new')
+        # chrome_options.add_argument('--headless=new')
 
         chrome_options.add_argument('window-size=1200x1000')
         chrome_options.add_argument('--disable-gpu')
