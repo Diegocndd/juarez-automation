@@ -22,4 +22,4 @@ jobs:
       - name: Run environment test
         run: python test_env.py
         env:
-          FIRST_ENV: ${{ secrets.FIRST_ENV }} # Referencie seu segredo
+          FIRST_ENV: ${{ vars.FIRST_ENV }} # Referencie seu segredo
