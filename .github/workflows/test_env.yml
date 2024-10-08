@@ -19,9 +19,6 @@ jobs:
         with:
           python-version: "3.8" # ou a versão que você está usando
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt # Instale suas dependências, se necessário
-
       - name: Run environment test
         run: python test_env.py
         # env:
